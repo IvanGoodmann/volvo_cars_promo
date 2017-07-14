@@ -105,6 +105,7 @@ h1 {
     font-size: 18px;
     color: #bac5dc;
     text-decoration: none;
+    outline: none;
     border-bottom: 1px solid #bac5dc;
 }
 
@@ -139,6 +140,7 @@ h1 {
 .more_info_box a {
     color: #fff;
     text-decoration: none;
+    outline: none;
     border-bottom: 1px solid #fff;
 }
 
