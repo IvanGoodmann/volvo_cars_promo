@@ -1,0 +1,174 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Volvo Cars</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<main>
+
+    <div id="formModalBox" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>
+                        Volvo Cars
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form_box">
+                        <div class="lead_box">
+                            <form action="success.php" method="post">
+                                <select name="shop" id="shop" class="shop" required>
+                                    <option selected value="">Выберите автосалон*</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                </select>
+                                <input type="text" name="name" class="name" placeholder="Ваше ФИО*"
+                                       title="Формат: Андрей Смирнов" required>
+                                <input type="text" name="phone" class="only_number" title="Формат: +7 (495) 777-00-99"
+                                       placeholder="Ваш телефон*" required>
+                                <button class="btn hvr-rectangle-out">
+                                    Отправить заявку
+                                </button>
+                            </form>
+                        </div>
+                        <div class="img_box">
+                            <img src="img/img_popap.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <div class="logo_box">
+                        <img src="img/logo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-4 col-sm-8">
+                    <div class="call_back_box">
+                        <div class="phone_box dib">
+                            Отдел продаж
+                            <span>+7 (963) 123-21-33</span>
+                        </div>
+                        <div class="btn_box dib">
+                            <button class="hvr-rectangle-out" data-toggle="modal" href="#formModalBox">
+                                Обратная связь
+                            </button>
+                        </div>
+                    </div>
+                    <div class="caption_box">
+                        <h4>
+                            Приобретая свободу
+                        </h4>
+                        <h1>
+                            Volvo Cars
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-4">
+                    <div class="spec_box">
+                        <div class="get_volvo_box dib">
+                            <a href="#">
+                                Получить спец.предложение Volvo
+                            </a>
+                        </div>
+                        <div class="btn_test_box dib">
+                            <button class="hvr-trim hvr-outline-out" data-toggle="modal" href="#formModalBox">
+                                Запись на тест драйв
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-9">
+                    <div class="more_info_box">
+                        <a href="#">Получить информацию от диллера</a>
+                        по другим автомобилям Volvo
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="slider_box">
+            <div class="img_box">
+                <a data-fancybox="gallery"
+                   href="//wallpaperscraft.com/image/volvo_xc90_silver_side_view_109119_602x339.jpg">
+                    <img src="img/car_01.jpg">
+                </a>
+            </div>
+            <div class="img_box">
+                <a data-fancybox="gallery" href="img/1.jpg">
+                    <img src="img/car_02.jpg">
+                </a>
+            </div>
+            <div class="img_box">
+                <a data-fancybox="gallery" href="img/2.jpg">
+                    <img src="img/car_03.jpg">
+                </a>
+            </div>
+            <div class="img_box">
+                <a data-fancybox="gallery" href="img/3.jpg">
+                    <img src="img/1.jpg">
+                </a>
+            </div>
+            <div class="img_box">
+                <a data-fancybox="gallery" href="img/4.jpg">
+                    <img src="img/2.jpg">
+                </a>
+            </div>
+            <div class="img_box">
+                <a data-fancybox="gallery" href="img/5.jpg">
+                    <img src="img/3.jpg">
+                </a>
+            </div>
+            <div class="img_box">
+                <a data-fancybox="gallery" href="img/6.jpg">
+                    <img src="img/4.jpg">
+                </a>
+            </div>
+            <div class="img_box">
+                <a data-fancybox="gallery" href="img/7.jpg">
+                    <img src="img/5.jpg">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+</main>
+
+</body>
+</html>
