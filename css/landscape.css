@@ -1,0 +1,12 @@
+@media screen and (max-width: 991px) {
+
+    section {
+        height: 100%;
+    }
+
+    footer {
+        position: relative;
+        min-height: 0;
+    }
+
+}

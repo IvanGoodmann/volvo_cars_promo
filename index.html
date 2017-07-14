@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="css/landscape.css">
+
+
     <script src="js/vendor/jquery-3.1.1.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css"/>
@@ -44,9 +47,8 @@
                             <form action="success.php" method="post">
                                 <select name="shop" id="shop" class="shop" required>
                                     <option selected value="">Выберите автосалон*</option>
-                                    <option value="">2</option>
-                                    <option value="">3</option>
-                                    <option value="">4</option>
+                                    <option value="">Москва, Варшавское шоссе, 122 а</option>
+                                    <option value="">Москва, 2-ая Магистральная., 18, стр. 22</option>
                                 </select>
                                 <input type="text" name="name" class="name" placeholder="Ваше ФИО*"
                                        title="Формат: Андрей Смирнов" required>
@@ -169,6 +171,10 @@
         </footer>
     </section>
 </main>
+
+<div id="hellopreloader">
+    <div id="hellopreloader_preload"></div>
+</div>
 
 </body>
 </html>
