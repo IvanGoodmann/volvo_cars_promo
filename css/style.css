@@ -13,12 +13,14 @@ body {
 }
 
 section {
+    height: 100vh;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f1a28+0,0f1a28+100 */
-    background:url("../img/bg_01.jpg")no-repeat center top, rgb(15,26,40); /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(15,26,40,0) 0%, rgba(15,26,40,1) 100%), url("../img/bg_01.jpg")no-repeat center top; /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(15,26,40,0) 0%,rgba(15,26,40,1) 100%), url("../img/bg_01.jpg")no-repeat center top; /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(15,26,40,0) 0%,rgba(15,26,40,1) 100%), url("../img/bg_01.jpg")no-repeat center top; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background:url("../img/bg_new.jpg")no-repeat center top, rgb(15,26,40); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(15,26,40,0) 0%, rgba(15,26,40,1) 100%), url("../img/bg_new.jpg")no-repeat center top; /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(15,26,40,0) 0%,rgba(15,26,40,1) 100%), url("../img/bg_new.jpg")no-repeat center top; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(15,26,40,0) 0%,rgba(15,26,40,1) 100%), url("../img/bg_new.jpg")no-repeat center top; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f1a28', endColorstr='#0f1a28',GradientType=1 ); /* IE6-9 */
+    background-size: cover;
 }
 
 .dib {
@@ -28,7 +30,7 @@ section {
 
 .call_back_box {
     font-size: 0;
-    text-align: center;
+    text-align: right;
     padding-top: 25px;
 }
 
@@ -46,6 +48,7 @@ section {
 
 .btn_box {
     width: 53%;
+    max-width: 270px;
 }
 
 .btn_box button {
@@ -144,16 +147,17 @@ h1 {
 }
 
 footer {
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     min-height: 100px;
 }
 
 .slider_box {
     position: absolute;
-    width: 70%;
     height: 136px;
-    left: 20px;
-    top: -55px;
+    left: 0;
+    bottom: 5px;
     font-size: 0;
     overflow: hidden;
 }
@@ -182,7 +186,7 @@ footer {
     -ms-transform: scale(1.1);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 
     .modal-dialog {
         width: 70%;
@@ -232,7 +236,7 @@ footer {
 .form_box {
     font-size: 0;
     text-align: center;
-    margin-top: -25px;
+    margin-top: -10px;
 }
 
 .form_box .lead_box,
@@ -341,7 +345,7 @@ input:-ms-input-placeholder {
     }
 
     footer {
-        min-height: 100%;
+        min-height: 0;
     }
 
     .slider_box {
@@ -359,10 +363,6 @@ input:-ms-input-placeholder {
 
     .form_box .lead_box, .form_box .img_box {
         width: 100%;
-    }
-
-    .modal-dialog {
-        margin: 30px 5px;
     }
 
     .modal-header h2 {
@@ -396,6 +396,10 @@ input:-ms-input-placeholder {
 
     .slider_box .img_box {
         width: 50%;
+    }
+
+    .modal-dialog {
+        top: 10%;
     }
 
     .modal-header h2 {
